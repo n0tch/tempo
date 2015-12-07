@@ -1,0 +1,46 @@
+GtkWindow{
+	background-color: #111111;
+}
+
+GtkLabel{
+	color: white;
+	padding-top: 5px;
+}
+
+.titulo{
+	font-size: 20px;
+	color: white;
+}
+
+.aviso{
+	color: #E33939;
+}
+
+.edt{
+	border-radius: 0px;
+	border: none;
+	box-shadow: none;
+	font-size: 12px;
+}
+
+.btnGO{
+	background: #156fad;
+	border-radius: 0px;
+	color:white;
+	font-weight: 700;
+	border:none;
+	box-shadow:none;
+	padding-left: 5px;
+}
+
+.btnGO:hover{
+	background: #128FE6;
+}
+
+.btnGO:active{
+	background-color: #66B9F2;
+}
+
+.result{
+	font-size: 14px;
+}
