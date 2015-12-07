@@ -58,6 +58,8 @@ class Principal():
 		self.max_min_dia4 = builder.get_object("max_min_dia4")
 		self.imagem_dia4 = builder.get_object("imagem_dia4")
 
+		self.edtCidade.grab_focus()
+		
 		self.conteudo = self.get_json()
 
 		builder.connect_signals({	"on_janela_destroy":self.sair, 

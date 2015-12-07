@@ -60,7 +60,6 @@
                   <object class="GtkEntry" id="edtEstado">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
-                    <property name="secondary_icon_tooltip_text" translatable="yes">Sigla</property>
                     <property name="placeholder_text" translatable="yes">sigla</property>
                     <style>
                       <class name="edt"/>
