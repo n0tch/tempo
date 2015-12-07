@@ -6,22 +6,6 @@ import requests
 import urllib
 import os
 
-'''
-
-#print(json.loads(dado.text))
-print(json.loads(dado.text)['cidade'])
-print(json.loads(dado.text)['agora']['temperatura'] + " graus")
-
-for key , value in json.loads(dado.text).items():
-	if key == 'cidade':
-		print(value)
-# for i, j in json.loads(dado.content.decode("utf-8")).items():
-# 	for a in j:
-# 		if isinstance(a, dict):
-# 			for c, d in a.items():
-# 				if c['']
-'''
-
 class Principal():
 	def __init__(self):
 		builder = Gtk.Builder()
@@ -59,7 +43,7 @@ class Principal():
 		self.imagem_dia4 = builder.get_object("imagem_dia4")
 
 		self.edtCidade.grab_focus()
-		
+
 		self.conteudo = self.get_json()
 
 		builder.connect_signals({	"on_janela_destroy":self.sair, 
